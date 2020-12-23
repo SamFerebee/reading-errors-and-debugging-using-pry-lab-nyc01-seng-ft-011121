@@ -12,6 +12,6 @@ end
 def engage
   puts state_log(date)
   date = generate_star_date
-  string = "Captain's Log, star date"
+  string = "/Captain's Log, star date /"
   string
 end
