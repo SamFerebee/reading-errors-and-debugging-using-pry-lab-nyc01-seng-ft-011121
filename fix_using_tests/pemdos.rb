@@ -3,9 +3,11 @@
 def snake_it_up(string)
   if string[0] == "s"
     10.times do 
-      string = "s" + string
+      new_string += "s"
     end
+    new_string += string
   else
     string
   end
+  string
 end
